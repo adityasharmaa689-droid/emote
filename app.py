@@ -1,6 +1,8 @@
 import os
 import json
 import logging
+import requests
+from io import BytesIO
 from flask import Flask, jsonify, send_file, Response, request
 
 # --- Logging setup ---
@@ -9,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # --- File paths ---
 ITEM_DATA_PATH = "itemData.json"
-EMOTE_IMAGE_PATH = "emote_image"
+GITHUB_EMOTE_BASE = "https://raw.githubusercontent.com/adityasharmaa689-droid/emote/main/emote/"
 
 # --- Load item data ---
 def load_item_data():
@@ -360,13 +362,21 @@ def get_item_data():
 @app.route('/image')
 def get_image():
     itemid = request.args.get('itemid')
-    image_path = os.path.join(EMOTE_IMAGE_PATH, f"{itemid}.png")
-    if os.path.exists(image_path):
-        return send_file(image_path, mimetype='image/png')
-    else:
-        return send_file("no_image.png", mimetype='image/png')
+    if not itemid:
+        return Response("Missing itemid", status=400)
+
+    github_url = f"{GITHUB_EMOTE_BASE}{itemid}.png"
+    try:
+        resp = requests.get(github_url, timeout=5)
+        if resp.status_code == 200 and resp.headers.get("Content-Type", "").startswith("image"):
+            return send_file(BytesIO(resp.content), mimetype='image/png')
+        else:
+            return Response(status=404)
+    except Exception as e:
+        logger.error(f"GitHub fetch failed for {itemid}: {e}")
+        return Response(status=404)
 
 # --- Run app ---
 if __name__ == "__main__":
-    print("🚀 Starting Flask app on http://127.0.0.1:8000")
+    print("🚀 Server running on http://127.0.0.1:8000")
     app.run(host="0.0.0.0", port=8000, debug=False)
