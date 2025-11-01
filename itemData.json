@@ -165,11 +165,6 @@
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
     },
     {
-        "Id": 909000035,
-        "name": "",
-        "desc": null
-    },
-    {
         "Id": 909000036,
         "name": "Top DJ",
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
@@ -485,119 +480,9 @@
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
     },
     {
-        "Id": 909000100,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000101,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000102,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000103,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000104,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000105,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000106,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000107,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000108,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000109,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000110,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000111,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000112,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000113,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000114,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000115,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000116,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000117,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000118,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000119,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909000120,
-        "name": "",
-        "desc": null
-    },
-    {
         "Id": 909000121,
         "name": "Dribble King",
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
-    },
-    {
-        "Id": 909000122,
-        "name": "",
-        "desc": null
     },
     {
         "Id": 909000123,
@@ -693,11 +578,6 @@
         "Id": 909000141,
         "name": "Leap of Fail",
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
-    },
-    {
-        "Id": 909000142,
-        "name": "",
-        "desc": null
     },
     {
         "Id": 909000143,
@@ -843,21 +723,6 @@
         "Id": 909035001,
         "name": "Free Money!",
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
-    },
-    {
-        "Id": 909035002,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909035003,
-        "name": "",
-        "desc": null
-    },
-    {
-        "Id": 909035004,
-        "name": "",
-        "desc": null
     },
     {
         "Id": 909035005,
@@ -1038,11 +903,6 @@
         "Id": 909038001,
         "name": "The Influencer",
         "desc": "Nobody knows how she got onto Bermuda, except that she was here before everyone else. Extremely good at adapting to the environment, she is like a chameleon that survives and thrives."
-    },
-    {
-        "Id": 909038002,
-        "name": "",
-        "desc": null
     },
     {
         "Id": 909038003,
